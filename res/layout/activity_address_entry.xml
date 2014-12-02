@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/person_detail"
+        tools:context=".AddressEntry" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editStreetAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/street_address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/editTown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/town"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/editState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/state"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/editZipCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/zip_code"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/cmdSave"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/cmdClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear" />
+
+    <Button
+        android:id="@+id/cmdCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" />
+
+</LinearLayout>

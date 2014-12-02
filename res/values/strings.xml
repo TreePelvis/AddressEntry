@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Assignment4</string>
+    <string name="person_detail">Person Detail</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_address_entry">Address Entry</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="street_address">Street Address</string>
+    <string name="town">Town</string>
+    <string name="state">State</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="nothing"></string>
+    <string name="title_activity_address_console">Address Console</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="total_records">Total Records</string>
+    <string name="record_number">Record Number</string>
+    <string name="view">View</string>
+    <string name="service_name">AddressDataSource</string>
+    
+    
+</resources>
